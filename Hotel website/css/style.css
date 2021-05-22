@@ -24,6 +24,10 @@ p {
     margin: 10px 0;
 }
 
+.clr {
+    clear: both;
+}
+
 #navbar {
     background-color: #333;
     color: #fff;
@@ -99,7 +103,7 @@ p {
 
 .bg-primary {
     background: #f7c08a;
-    color: #ffffff;
+    color: #333;
 }
 
 .btn-light {
@@ -155,4 +159,22 @@ p {
 
 #home-info .info-content p {
     padding-bottom: 30px;
+}
+
+.box {
+    float: left;
+    width: 33.3%;
+    text-align: center;
+    padding: 50px;
+}
+
+.box i {
+    margin-bottom: 10px;
+}
+
+#main-footer {
+    text-align: center;
+    background: #444;
+    color: #fff;
+    padding: 20px;
 }
