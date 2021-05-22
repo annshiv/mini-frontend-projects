@@ -116,6 +116,15 @@ p {
     color: #333;
 }
 
+.l-heading {
+    font-size: 40px;
+}
+
+/* padding */
+.py-1 {padding: 10px 0;}
+.py-2 {padding: 20px 0;}
+.py-3 {padding: 30px 0;}
+
 #showcase {
     background: url('../img/showcase.jpg') no-repeat center center/cover;
     height: 600px;
@@ -177,4 +186,49 @@ p {
     background: #444;
     color: #fff;
     padding: 20px;
+}
+
+.info-left {
+    float: left;
+    width: 50%;
+    min-height: 100%;
+}
+
+.info-right {
+    float: right;
+    width: 50%;
+    min-height: 100%;
+}
+
+.info-right img {
+    display: block;
+    width: 70%;
+    margin: auto;
+    border-radius: 50%;
+}
+
+#testimonials {
+    background: url('../img/test-bg.jpg') no-repeat center center/cover ;
+    height: 600px;
+    padding-top: 100px;
+}
+
+#testimonials h2 {
+    color: #fff;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+#testimonials .testimonial {
+    padding: 20px;
+    margin-bottom: 40px;
+    border-radius: 5px;
+    opacity: 0.9;
+}
+
+#testimonials .testimonial img {
+    width: 100px;
+    float: left;
+    margin-right: 20px;
+    border-radius: 50%;
 }
