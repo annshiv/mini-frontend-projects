@@ -51,6 +51,7 @@ p {
     text-decoration: none;
     color: #ffffff;
     padding: 20px;
+    text-align: center;
 }
 
 #navbar ul li a:hover,
@@ -59,9 +60,99 @@ p {
     color: #f7c08a;
 }
 
+/* Utilite class */
+.text-primary {
+    color: #f7c08a;
+}
+
 .container {
     max-width: 1100px;
     margin: auto;
     overflow: auto;
     padding: 0 20px;
+}
+
+.lead {
+    font-size: 20px;
+}
+
+.btn {
+    display: inline-block;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #333;
+    padding: 13px 20px;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+}
+
+.bg-dark {
+    background: #333;
+    color: #ffffff;
+}
+
+.bg-light {
+    background: #f4f4f4;
+    color: #333;
+}
+
+.bg-primary {
+    background: #f7c08a;
+    color: #ffffff;
+}
+
+.btn-light {
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+.btn:hover {
+    background-color: #f7c08a;
+    color: #333;
+}
+
+#showcase {
+    background: url('../img/showcase.jpg') no-repeat center center/cover;
+    height: 600px;
+}
+
+#showcase .showcase-content {
+    padding-top: 170px;
+    text-align: center;
+    color: #ffffff;
+}
+
+#showcase .showcase-content h1 {
+    font-size: 60px;
+    line-height: 1.2em;
+}
+
+#showcase .showcase-content p {
+    padding-bottom: 20px;
+    line-height: 1.7em;
+}
+
+#home-info {
+    height: 400px;
+}
+
+#home-info .info-img {
+    float: left;
+    width: 50%;
+    background: url('../img/photo-1.jpg') no-repeat;
+    min-height: 100%;
+}
+
+#home-info .info-content {
+    float: right;
+    text-align: center;
+    width: 50%;
+    height: 100%;
+    padding: 50px 30px;
+    overflow: hidden;
+}
+
+#home-info .info-content p {
+    padding-bottom: 30px;
 }
