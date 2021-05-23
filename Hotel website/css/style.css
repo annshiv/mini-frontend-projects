@@ -151,7 +151,7 @@ p {
 }
 
 #home-info {
-    height: 400px;
+    height: 550px;
 }
 
 #home-info .info-img {
@@ -213,7 +213,7 @@ p {
 
 #testimonials {
     background: url('../img/test-bg.jpg') no-repeat center center/cover ;
-    height: 600px;
+    height: 100%;
     padding-top: 100px;
 }
 
@@ -239,6 +239,11 @@ p {
 
 #contact-form .form-group {
     margin-bottom: 20px;
+}
+
+#contact-form h1,
+#contact-form p{
+    text-align: center;
 }
 
 #contact-form .form-group input,
