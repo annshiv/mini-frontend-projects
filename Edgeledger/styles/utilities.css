@@ -20,15 +20,85 @@
     opacity: 0.9;
 }
 
-.btn-secondary {
+.bg-primary {
+    background-color: #28a745;
+    color: #fff;
+}
+
+.bg-secondary {
     background-color: #0284d0;
+    color: #fff;
 }
 
-.btn-dary {
+.bg-dark {
     background-color: #333;
+    color: #fff;
 }
 
-.btn-light {
+.bg-light {
     background-color: #f4f4f4;
     color: #333;
 }
+
+.btn-outline {
+    border: #fff solid 1px;
+}
+
+.flex-items {
+    display: flex;
+    padding: 20px;
+    text-align: center;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.flex-items h3 {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.flex-items p {
+    margin: 20px;
+}
+
+.flex-columns .row{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.flex-columns .row .column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+}
+
+.flex-columns .row .column .column-1,
+.flex-columns .row .column .column-2 {
+    height: 100%;
+}
+
+.flex-columns img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.flex-columns .column-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 30px;
+}
+
+.flex-columns h2 {
+    font-weight: 100;
+    font-size: 40px;
+}
+
+.flex-columns h4 {
+    margin-bottom: 10px;
+}
+
