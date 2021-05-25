@@ -1,3 +1,4 @@
+/* Text colors */
 .text-primary {
     color: #28a745;
 }
@@ -6,70 +7,64 @@
     color: #0284d0;
 }
 
+/* Button */
 .btn {
-    background-color: #28a745;
+    cursor: pointer;
     display: inline-block;
     padding: 10px 30px;
+    color: #fff;
+    background-color: #28a745;
     border: none;
     border-radius: 5px;
-    color: #fff;
-    cursor: pointer;
 }
 
 .btn:hover {
     opacity: 0.9;
 }
 
-.bg-primary {
-    background-color: #28a745;
-    color: #fff;
+.btn-primary, .bg-primary {
+   background: #28a745;
+   color: #fff;
 }
-
-.bg-secondary {
-    background-color: #0284d0;
-    color: #fff;
+.btn-secondary, .bg-secondary {
+   background: #0284d0;
+   color: #fff;
 }
-
-.bg-dark {
-    background-color: #333;
-    color: #fff;
+.btn-dark, .bg-dark {
+   background: #333;
+   color: #fff;
 }
-
-.bg-light {
-    background-color: #f4f4f4;
-    color: #333;
+.btn-light, .bg-light {
+   background: #f4f4f4;
+   color: #333;
 }
 
 .btn-outline {
-    background-color: transparent;
-    border: #fff solid 1px;
+    background: transparent;
+    border: 1px solid #fff;
 }
 
-/* Flex column */
-
-.flex-columns.felx-reverse .row{
-    flex-direction: row-reverse;
-}
-
+/* Flex items */
 .flex-items {
     display: flex;
-    padding: 20px;
     text-align: center;
-    justify-content: space-between;
+    justify-content: center;
+    text-align: center;
     height: 100%;
 }
 
-.flex-items h3 {
-    margin-top: 10px;
-    font-weight: bold;
+.flex-items > div {
+    padding: 20px;
 }
 
-.flex-items p {
-    margin: 20px;
+/* Flex columns */
+.flex-columns.flex-reverse .row {
+    flex-direction: row-reverse;
 }
 
-.flex-columns .row{
+.flex-columns .row {
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     width: 100%;
 }
@@ -81,8 +76,8 @@
     flex: 1;
 }
 
-.flex-columns .row .column .column-1,
-.flex-columns .row .column .column-2 {
+.flex-columns .column .column-1,
+.flex-columns .column .column-2 {
     height: 100%;
 }
 
@@ -101,14 +96,19 @@
 }
 
 .flex-columns h2 {
-    font-weight: 100;
     font-size: 40px;
+    font-weight: 100;
 }
 
 .flex-columns h4 {
     margin-bottom: 10px;
 }
 
+.flex-columns p {
+    margin: 20px 0;
+}
+
+/* Section header */
 .section-header {
     padding: 30px;
     display: flex;
@@ -127,14 +127,8 @@
     padding: 20px 20px 40px;
 }
 
-.flex-grid {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.flex-grid .row{
+/* Flex grid */
+.flex-grid .row {
     display: flex;
     flex-wrap: wrap;
     padding: 0 4px;
@@ -146,6 +140,3 @@
     padding: 0 4px;
 }
 
-.flex-grid .row .column img:hover {
-    opacity: 0.6;
-}
