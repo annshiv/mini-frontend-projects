@@ -41,7 +41,14 @@
 }
 
 .btn-outline {
+    background-color: transparent;
     border: #fff solid 1px;
+}
+
+/* Flex column */
+
+.flex-columns.felx-reverse .row{
+    flex-direction: row-reverse;
 }
 
 .flex-items {
@@ -102,3 +109,36 @@
     margin-bottom: 10px;
 }
 
+.section-header {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.section-header h2 {
+    font-size: 40px;
+    margin: 20px 0;
+}
+
+.section-padding {
+    padding: 20px 20px 40px;
+}
+
+.flex-grid .row{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+.flex-grid .row .column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+}
+
+.flex-grid .row .column img:hover {
+    opacity: 0.6;
+}
