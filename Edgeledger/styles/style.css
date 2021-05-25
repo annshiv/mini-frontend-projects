@@ -61,7 +61,7 @@ img {
     margin: 0 5px;
 }
 
-.navbar a:hover {
+.navbar nav a:hover {
     border-bottom: #28a745 solid 2px;
 }
 
@@ -73,6 +73,7 @@ img {
 
 .hero {
     background: url('../images/home/showcase.jpg') no-repeat center center/cover;
+    text-align: center;
     height: 100vh;
     position: relative;
     color: #fff;
@@ -176,4 +177,31 @@ img {
 
 .footer i:hover {
     color: #28a745;
+}
+
+@media(max-width:768px) {
+    .navbar {
+        flex-direction: column;
+        height: 120px;
+        padding: 20px;
+    }
+
+    .navbar a {
+        padding: 10px 10px;
+        margin: 0 3px;
+    }
+
+    .flex-items {
+        flex-direction: column;
+    }
+
+    .flex-columns .row .column,
+    .flex-grid .row .column{
+        flex: 100%;
+        max-width: 100%;
+    }
+
+    .flex-grid .row {
+        padding: 4px;
+    }
 }
